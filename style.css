@@ -2,20 +2,36 @@ body {
   background-color: #202020;
 }
 
-p{
+p	{
+   color: white;
+   margin-left: 2px;
+   font-size: 14px;
+}
+
+h1	{
+   color: white;
+   margin-left: 1px;
+   font-size: 26px;
+   
+}
+
+#a	{
   color: white;
   margin-left: 30px;
+  font-size: 12px;
 }
 
-p2{
+#b	{
   color: white;
   margin-left: 10px;
+  font-size: 12px;
 }
 
-p3{
+#c	{
   color: yellow;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 12px;
 }
