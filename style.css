@@ -18,14 +18,21 @@ h1	{
    
 }
 
-#li	{
+a	{
+   font-family: "Comic Sans MS";
+   color: red;
+   margin-left: 2px;
+   font-size: 14px;
+}
+
+li	{
   font-family: "Comic Sans MS";
   color: white;
   margin-left: 10px;
   font-size: 12px;
 }
 
-#ul	{
+ul	{
   font-family: "Comic Sans MS";
   color: white;
   margin-left: 10px;
