@@ -3,12 +3,14 @@ body {
 }
 
 p	{
+   font-family: "Comic Sans MS";
    color: white;
    margin-left: 2px;
    font-size: 14px;
 }
 
 h1	{
+   font-family: "Comic Sans MS";
    color: white;
    margin-left: 1px;
    font-size: 26px;
@@ -16,22 +18,36 @@ h1	{
 }
 
 #a	{
+  font-family: "Comic Sans MS";
   color: white;
   margin-left: 30px;
   font-size: 12px;
 }
 
 #b	{
+  font-family: "Comic Sans MS";
   color: white;
   margin-left: 10px;
   font-size: 12px;
 }
 
 #c	{
+  font-family: "Comic Sans MS";
   color: yellow;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 12px;
+}
+
+#d  {
+  font-family: "Comic Sans MS";
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+	
 }
