@@ -9,6 +9,7 @@ p	{
    font-size: 14px;
 }
 
+
 h1	{
    font-family: "Comic Sans MS";
    color: white;
@@ -16,6 +17,21 @@ h1	{
    font-size: 26px;
    
 }
+
+#li	{
+  font-family: "Comic Sans MS";
+  color: white;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+#ul	{
+  font-family: "Comic Sans MS";
+  color: white;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
 
 #a	{
   font-family: "Comic Sans MS";
