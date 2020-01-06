@@ -15,7 +15,7 @@ h1	{
    color: white;
    margin-left: 1px;
    font-size: 26px;
-   
+
 }
 
 #psa	{
@@ -23,9 +23,16 @@ h1	{
    color: white;
    margin-left: 1px;
    font-size: 420.69px;
-   
+
 }
 
+#psa.date	{
+   font-family: "Comic Sans MS";
+   color: white;
+   margin-left: 1px;
+   font-size: 48px;
+
+}
 
 a	{
    font-family: "Comic Sans MS";
@@ -81,7 +88,7 @@ ul	{
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 15px;
-	
+
 }
 
 #t  {
@@ -92,5 +99,5 @@ ul	{
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 15px;
-	
+
 }
