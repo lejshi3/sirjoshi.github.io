@@ -1,6 +1,9 @@
-# sirjoshi.github.io
-website?
-This is My Terrible Fricking Side Project
-Hope it Never Reaches My Resume
-Please Don't Touch It (That would hurt my feelings)
-I Making This Because I'm Bored and Making a Site in Weebly or Wix is Unsatisfying.
+# This Website is sirjoshi.github.io
+
+If You See This, And Your *Not* In Github, You or I, Messed Up Badly.
+
+This is a Markup file for the Readme of my Page.
+
+This Website is my little project, it's cool.
+
+I hate Wix, and Weebly, so I learned HTML, CSS, and JS. What a Cool Site
