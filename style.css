@@ -18,22 +18,6 @@ h1	{
 
 }
 
-#psa	{
-   font-family: "Comic Sans MS";
-   color: white;
-   margin-left: 1px;
-   font-size: 420.69px;
-
-}
-
-#psa.date	{
-   font-family: "Comic Sans MS";
-   color: white;
-   margin-left: 1px;
-   font-size: 48px;
-
-}
-
 a	{
    font-family: "Comic Sans MS";
    color: red;
@@ -99,5 +83,34 @@ ul	{
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 15px;
+
+}
+
+#psa-body	{
+   font-family: "Comic Sans MS";
+   color: white;
+   margin-left: 1px;
+   font-size: 24px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+
+}
+
+#psa-date	{
+   font-family: "Comic Sans MS";
+   color: white;
+   margin-left: 1px;
+   font-size: 12px;
+   padding: 0px, 0px;
+
+
+}
+
+#psa-title	{
+   font-family: "Comic Sans MS";
+   color: white;
+   margin-left: 1px;
+   font-size: 48px;
+   padding: 0px, 0px;
 
 }
