@@ -56,6 +56,12 @@ ul	{
   overflow: auto;
 }
 
+#sidebar	{
+   margin-left: 8px;
+   margin-top: -20px;
+   padding-right: 5px;
+}
+
 #header	{
   font-family: "Comic Sans MS";
   color: Red;
