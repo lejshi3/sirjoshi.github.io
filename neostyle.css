@@ -36,7 +36,6 @@ li 	{
 li a {
   display: block;
   padding: 2px 2px;
-  text-decoration: none;
 }
 
 li a:hover {
