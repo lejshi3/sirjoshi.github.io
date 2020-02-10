@@ -27,6 +27,13 @@ a	{
 
 li 	{
   font-family: "Comic Sans MS";
+  color: white;
+  font-size: 16px;
+  display: block;
+}
+
+#hmm 	{
+  font-family: "Comic Sans MS";
   color: Red;
   margin-left: 10px;
   font-size: 12px;
@@ -45,6 +52,11 @@ li a:hover {
 
 ul	{
   font-family: "Comic Sans MS";
+  font-size: 12px;
+}
+
+#bar	{
+  font-family: "Comic Sans MS";
   color: Red;
   margin: 0;
   padding: 0;
@@ -54,6 +66,7 @@ ul	{
   position: fixed;
   overflow: auto;
 }
+
 
 #sidebar	{
    margin-left: 8px;
