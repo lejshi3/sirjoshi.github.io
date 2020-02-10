@@ -76,6 +76,14 @@ ul	{
     margin-left: -24px;
 }
 
+#a {
+    font-size: 20px;
+}
+
+#b {
+    font-size: 14px;
+}
+
 .active {
   background-color: #4CAF50;
   color: white;
