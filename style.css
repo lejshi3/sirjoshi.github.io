@@ -1,0 +1,32 @@
+body{
+    font-family: Swansea, Helvetica-Neue, Helvetica, sans-serif;
+    background-color: #222;
+    color: white;
+    width: 300px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer{
+    display: block;
+    background-color: red;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+footer p{
+    margin-left: 10px
+}
+
+.classic{
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
