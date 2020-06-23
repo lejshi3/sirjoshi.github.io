@@ -1,4 +1,4 @@
-body{
+body    {
     font-family: Swansea, Helvetica-Neue, Helvetica, sans-serif;
     background-color: #222;
     color: white;
@@ -7,7 +7,7 @@ body{
     padding-right: 2em;
 }
 
-footer{
+footer  {
     display: block;
     background-color: red;
     color: white;
@@ -18,7 +18,7 @@ footer{
     font-family: Comic Sans MS, cursive, sans-serif;
 }
 
-a{
+a       {
     color: red;
     text-decoration: none;
 }
@@ -29,4 +29,19 @@ footer p{
 
 .classic{
     font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+ul.nav  {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+li.nav  {
+   display: inline;   
+}
+
+a.nav   {
+   display: block;
+   padding: 8px;
 }
