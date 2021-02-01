@@ -7,7 +7,7 @@ body    {
     padding-right: 2em;
 }
 
-footer  {
+div.footer  {
     display: block;
     background-color: red;
     color: white;
@@ -23,7 +23,7 @@ a       {
     text-decoration: none;
 }
 
-footer p{
+div.footer p{
     margin-left: 10px
 }
 
