@@ -1,10 +1,8 @@
-body    {
-    font-family: Swansea, Helvetica-Neue, Helvetica, sans-serif;
+h2          {
+    font-family: "Roboto Slab", serif;
     background-color: #222;
     color: white;
     width: 300px;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 div.footer  {
@@ -18,30 +16,55 @@ div.footer  {
     font-family: Comic Sans MS, cursive, sans-serif;
 }
 
-a       {
+a           {
     color: red;
     text-decoration: none;
 }
 
 div.footer p{
-    margin-left: 10px
+    margin-left: 10px;
+    font-size: 12px;
 }
 
-.classic{
+h1.classic {
     font-family: Comic Sans MS, cursive, sans-serif;
 }
 
-ul.nav  {
+div         {
+
+}
+
+div.goods   {
+    font-family: "Roboto", sans-serif;
+    background-color: #222;
+    color: white;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+div.nav     {
+    font-family: "Roboto", sans-serif;
+    vertical-align: middle;
+    width: 10%;
+}
+
+div.nav ul  {
    list-style-type: none;
-   margin: 0;
-   padding: 0;
+   margin: -10px 10px 0px 0px;
+   padding: 10px 0px 0px 0px;
 }
 
-li.nav  {
-   display: inline;   
+div.nav h1  {
+    display: block;
+    padding: -2px -2px -2px -2px;
 }
 
-a.nav   {
+div.nav li  {
    display: block;
+}
+
+div.nav li a{
    padding: 8px;
+   display: inline-block;
+   background-color: rgb(255, 255, 255);
 }
