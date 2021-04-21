@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
   <style>
-    body {background-color: #202020; color: #fff;}
+    body {background-color: #202020;}
+    div {float: left; display: block;}
+
+
+    div.article {
+      float: left;
+      position: static;
+      margin: 16px;
+    }
+
+    .nav {float: left; display: block; position: static;}
+    .nav ul {list-style-type: none; margin: 0px; border-radius: 4px;padding: 12px 64px 12px 12px; background-color: #333;}
+    
+    .nav a {padding: 2px 4px; margin: 2px 8px; color: pink; display: block; font-size: 12px;}
+    .nav a:hover {background-color: pink; color: white;}
+    .nav li a::before{content: "└ "; position: relative; top: 2px;}
+    .nav p {padding: 4px 4px; margin: 0px 0px; color: white; font-weight: bold; font-size: 18px;}
+    .nav h2 {padding: 4px 4px; margin: 0px 0px; color: white; font-weight: bold; font-size: 18px;}
+    
+    h1 {font-size: 28px; color: white; font-family: 'Roboto'; padding-bottom: 4px; margin-bottom: 8px; /*border-bottom: 2px solid white;*/}
+    h2 {font-size: 24px; color: white; font-family: 'Roboto'; font-weight: bold; font-style: italic; margin-bottom: -12px;}
+    h3 {font-size: 12px; color: lightgrey; font-family: 'Roboto Slab'; font-weight: bold; margin-bottom: -8px;}
+    p {font-size: 16px; color: white; font-family: 'Fira Sans'; word-break: keep-all;}
+
   </style>
+
+  <head>
+    <title>jsh</title>
+  </head>
+
   <body>
-    <p>what?<p>
-   </body>
+    <table>
+      <td>
+        <div class="nav">
+          <h1>the jsh</h1>
+          
+          <ul>
+            <li><h2>Links</h2></li>
+            <li><a>something</a></li>
+            <li><a>something else</a></li>
+            <li><a>sus</a></li>
+          </ul>
+        </div>
+      </td>
+
+      <td>
+        <div class="article">
+          <h2>The Perks of Existence</h2>
+          <h3>by Josh Onkoba</h3>
+          <p>Frankly, I exist. It is hard to prove it, but I <i>do</i> exist nontheless. Many week men ponder on why that is. To exist is to suffer says the nihilist.</p>
+        </div>
+      </td>
+  </table>
+    
+  </body>
 </html>
