@@ -1,70 +1,87 @@
-h2          {
-    font-family: "Roboto Slab", serif;
-    background-color: #222;
-    color: white;
-    width: 300px;
+/* Global */
+body {
+    background-color: #202020;
 }
-
-div.footer  {
+div {
+    float: left; 
     display: block;
-    background-color: red;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: 'Roboto';
+}
+
+h2 {
+    font-size: 24px; 
+    font-family: 'Roboto'; 
+    font-weight: bold; 
+    font-style: italic; 
+    margin-bottom: -12px;
+}
+
+h3 {
+    font-size: 12px; 
+    color: lightgrey; 
+    font-family: 'Roboto Slab'; 
+    font-weight: bold; 
+    margin-bottom: -8px;
+}
+
+p {
+    font-size: 16px; 
+    font-family: 'Fira Sans'; 
+    word-break: keep-all;
+}
+
+/* Article */
+div.article {
+  float: left;
+  margin: 16px;
+}
+
+div.article h2 {
     color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-family: Comic Sans MS, cursive, sans-serif;
+}
+div.article p {
+    text-indent: 32px; 
+    color: white
 }
 
-a           {
-    color: red;
-    text-decoration: none;
+/* Footer */
+footer {
+    position: fixed; bottom: 0px; right: 16px;
 }
 
-div.footer p{
-    margin-left: 10px;
-    font-size: 12px;
+footer p {color: pink;}
+
+/* Nav and Bar Items */
+h1.title {color: #fff; 
+    padding-bottom: 4px; 
+    margin-bottom: 8px;
 }
 
-h1.classic {
-    font-family: Comic Sans MS, cursive, sans-serif;
-}
+div.nav {float: left; display: block; position: sticky; top: 16px; left: 16px;}
 
-div         {
+div.baritem {width: 128px; border-radius: 4px; padding: 4px 64px 4px 16px; margin: 4px;}    
+div.baritem p {font-size: 12px;}
+div.baritem h1 {font-weight: bold; margin-bottom: -8px ;font-size: 18px;}
 
-}
+div.baritem a {color: pink; text-decoration: underline;font-size: 12px;}
+div.baritem a:hover {background-color: pink; color: white;}
 
-div.goods   {
-    font-family: "Roboto", sans-serif;
-    background-color: #222;
-    color: white;
-    padding-left: 1em;
-    padding-right: 2em;
-}
+div.baritem li a {text-decoration: none;}
+div.baritem li {padding-left: 8px; color: pink; display: list-item; list-style-type:"└ ";font-size: 12px;}
+div.baritem ul {margin-left: 24px; padding-left: 0px; list-style-type: none;}
 
-div.nav     {
-    font-family: "Roboto", sans-serif;
-    vertical-align: middle;
-    width: 10%;
-}
+/* Baritem Colors */
+#def {background-color: #333; color: #fff} 
+#a {background-color: #e88; color: #fff} 
+#b {background-color: #ee8; color: #fff} 
+#c {background-color: #8e8; color: #000} 
+#d {background-color: #8ee; color: #fff} 
+#e {background-color: #e8e; color: #fff} 
+#f {background-color: #fff; color: #000} 
 
-div.nav ul  {
-   list-style-type: none;
-   margin: -10px 10px 0px 0px;
-   padding: 10px 0px 0px 0px;
-}
-
-div.nav h1  {
-    display: block;
-    padding: -2px -2px -2px -2px;
-}
-
-div.nav li  {
-   display: block;
-}
-
-div.nav li a{
-   padding: 8px;
-   display: inline-block;
-   background-color: rgb(255, 255, 255);
-}
+/* Other */
+.date {color: #eee; font-size: 12px; margin: 8px 0px -8px 0px;}
