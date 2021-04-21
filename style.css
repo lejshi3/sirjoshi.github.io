@@ -1,5 +1,6 @@
 /* Global */
 body {
+    /*background-image: url("content/wallpaper.jpg");*/
     background-color: #202020;
 }
 div {
@@ -50,15 +51,22 @@ div.article p {
 
 /* Footer */
 footer {
-    position: fixed; bottom: 0px; right: 16px;
+    position: fixed; right: 0px; bottom: 0px; padding: 0;
+    background-color: pink;
+    float: right;
+    padding-left: 16px;
+    margin: 8px 0px 0px -8px;
+    
+    
 }
 
-footer p {color: pink;}
+footer p {color: white; float: right; margin-right: 16px; font-size: 12px; padding: 0;} 
 
 /* Nav and Bar Items */
-h1.title {color: #fff; 
+h1.title {
+    color: #fff; 
     padding-bottom: 4px; 
-    margin-bottom: 8px;
+
 }
 
 div.nav {float: left; display: block; position: sticky; top: 16px; left: 16px;}
