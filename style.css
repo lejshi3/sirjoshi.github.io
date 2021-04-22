@@ -1,7 +1,12 @@
 /* Global */
 body {
-    /*background-image: url("content/wallpaper.jpg");*/
-    background-color: #202020;
+    /*background-image: url("/content/The\ Beach.jpg");
+    background-size: initial;
+    background-color: #202020;*/
+
+    background: rgb(68,0,136);
+    background: linear-gradient(125deg, rgba(68,0,136,1) 0%, rgba(255,0,255,1) 100%); 
+    background-size: contain; 
 }
 div {
     float: left; 
@@ -37,15 +42,19 @@ p {
 
 /* Article */
 div.article {
-  float: left;
-  margin: 16px;
+float: left;
+margin: 16px;
+padding: 8px;
+height: 700px;
+width: 40%;
 }
 
 div.article h2 {
     color: white;
 }
 div.article p {
-    text-indent: 32px; 
+    text-indent: 16px; 
+    line-height: 150%;
     color: white
 }
 
@@ -69,11 +78,11 @@ h1.title {
 
 }
 
-div.nav {float: left; display: block; position: sticky; top: 16px; left: 16px;}
+div.nav {float: left; display: block; position: sticky; top: 16px; left: 16px; background-color: #444; padding: 0px; border-radius: 8px; margin-bottom: 4px;}
 
-div.baritem {width: 128px; border-radius: 4px; padding: 4px 64px 4px 16px; margin: 4px;}    
+div.baritem {width: 192px; border-radius: 4px; padding: 4px 16px 4px 16px; margin: 4px;}    
 div.baritem p {font-size: 12px;}
-div.baritem h1 {font-weight: bold; margin-bottom: -8px ;font-size: 18px;}
+div.baritem h1 {font-weight: bold; margin-bottom: -24px ;font-size: 18px;}
 
 div.baritem a {color: pink; text-decoration: underline;font-size: 12px;}
 div.baritem a:hover {background-color: pink; color: white;}
@@ -92,4 +101,4 @@ div.baritem ul {margin-left: 24px; padding-left: 0px; list-style-type: none;}
 #f {background-color: #fff; color: #000} 
 
 /* Other */
-.date {color: #eee; font-size: 12px; margin: 8px 0px -8px 0px;}
+.date {color: #eee; font-size: 12px; margin: 24px 0px -8px 0px;}
