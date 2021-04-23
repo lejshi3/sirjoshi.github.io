@@ -1,12 +1,10 @@
 /* Global */
 body {
-    /*background-image: url("/content/The\ Beach.jpg");
+    background-image: url("/content/gradient.png");
     background-size: initial;
-    background-color: #202020;*/
+    background-color: #202020;
 
-    background: rgb(68,0,136);
-    background: linear-gradient(125deg, rgba(68,0,136,1) 0%, rgba(255,0,255,1) 100%); 
-    background-size: contain; 
+    
 }
 div {
     float: left; 
