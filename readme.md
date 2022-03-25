@@ -4,7 +4,7 @@
 
 [email](mailto:josh@cardnial.com)
 
-[twitter](https://www.twitter.com/joshi3)
+[twitter](https://www.twitter.com/_joshi3)
 
 [other webstite (coming soon)](https://josh.cardnial.com)
 
